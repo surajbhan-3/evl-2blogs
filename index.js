@@ -31,7 +31,7 @@ app.use(authenticate)
 app.use("/blog",blogRouter)
 
 
-app.listen(process.env.port,async(req,res)=>{
+app.listen(process.env.port,async()=>{
 
 
     try {
